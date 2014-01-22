@@ -32,7 +32,7 @@
     <polymer-ui-menu-item icon="shortcut">Share</polymer-ui-menu-item>
   </polymer-ui-dropdown>
   <script>
-    document.addEventListener('WebComponentsReady', function() {
+    document.addEventListener('polymer-ready', function() {
       document.querySelector('#dots').addEventListener('tap', function() {
         document.querySelector('#dropdown').toggle();
       });
